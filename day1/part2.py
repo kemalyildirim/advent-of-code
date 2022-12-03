@@ -17,8 +17,9 @@ test_data = """
 10000
 """
 
-with open("data") as f:
-    data = f.read()
+from common import readData
+
+data = readData('data')
 
 def solution(data):
     dataArr = data.split("\n")
