@@ -17,7 +17,9 @@ test_data = """
 10000
 """
 
-from common import readData
+import sys
+sys.path.append("../")
+from commons import readData
 
 data = readData('data')
 
