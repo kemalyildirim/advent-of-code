@@ -18,7 +18,7 @@ test_data = """
 """
 
 import sys
-sys.path.append("../")
+sys.path.insert(0, "../")
 from commons import readData
 
 data = readData('data')

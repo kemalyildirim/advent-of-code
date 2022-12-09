@@ -1,5 +1,5 @@
 import sys
-sys.path.append("../")
+sys.path.insert(0, "../")
 
 test_data = """
 A Y
